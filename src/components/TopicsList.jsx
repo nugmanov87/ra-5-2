@@ -8,7 +8,7 @@ const TopicsList = ({ topics }) => {
   return (
     <div className="ui horizontal bulleted list">
       {topics.map(topic => (
-        <a href="" className="item" key={shortid.generate()}>
+        <a href="#" className="item" key={shortid.generate()}>
           {topic}
         </a>
       ))}
