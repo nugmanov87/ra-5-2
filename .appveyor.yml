@@ -13,7 +13,8 @@ install:
 
 build: off
 
-
+build_script:
+  - yarn build
 
 deploy_script:
   - git config --global credential.helper store
